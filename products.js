@@ -3,9 +3,9 @@ const products = [
 
     {
         id: 1,
-        name: "Stronger with YOU",
+        name: "Stronger With You Parfum",
         brand: "mens",
-        price: 100,
+        price: 125,
         category: "man",
         image: "product-images/p1.webp",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla perferendis possimus recusandae sed, repudiandae blanditiis porro repellat architecto tempore in nihil modi fugit tenetur eligendi."
@@ -13,9 +13,9 @@ const products = [
 
     {
         id: 2,
-        name: "Versace",
+        name: "Eros Eau de Parfum",
         brand: "mens",
-        price: 100,
+        price: 110,
         category: "man",
         image: "product-images/p2.webp",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla perferendis possimus recusandae sed, repudiandae blanditiis porro repellat architecto tempore in nihil modi fugit tenetur eligendi."
@@ -25,7 +25,7 @@ const products = [
         id: 3,
         name: "Blue Laverne",
         brand: "mens",
-        price: 100,
+        price: 75,
         category: "man",
         image: "product-images/p3.webp",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla perferendis possimus recusandae sed, repudiandae blanditiis porro repellat architecto tempore in nihil modi fugit tenetur eligendi."
@@ -33,9 +33,9 @@ const products = [
 
     {
         id: 4,
-        name: "Boss",
+        name: "Boss Bottled Elixir",
         brand: "mens",
-        price: 100,
+        price: 135,
         category: "man",
         image: "product-images/p4.webp",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla perferendis possimus recusandae sed, repudiandae blanditiis porro repellat architecto tempore in nihil modi fugit tenetur eligendi."
@@ -43,9 +43,9 @@ const products = [
 
     {
         id: 5,
-        name: "Dior Homme",
+        name: "Dior Homme Parfum",
         brand: "mens",
-        price: 100,
+        price: 170,
         category: "man",
         image: "product-images/p5.webp",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla perferendis possimus recusandae sed, repudiandae blanditiis porro repellat architecto tempore in nihil modi fugit tenetur eligendi."
@@ -53,9 +53,9 @@ const products = [
 
     {
         id: 6,
-        name: "Sauvage",
+        name: "Sauvage Elixir",
         brand: "mens",
-        price: 100,
+        price: 170,
         category: "man",
         image: "product-images/p6.webp",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla perferendis possimus recusandae sed, repudiandae blanditiis porro repellat architecto tempore in nihil modi fugit tenetur eligendi."
@@ -63,9 +63,9 @@ const products = [
 
     {
         id: 7,
-        name: "Gentelmen",
+        name: "Gentleman Givenchy (Boisée/Reserve Privée)",
         brand: "mens",
-        price: 100,
+        price: 120,
         category: "man",
         image: "product-images/p7.webp",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla perferendis possimus recusandae sed, repudiandae blanditiis porro repellat architecto tempore in nihil modi fugit tenetur eligendi."
@@ -73,18 +73,18 @@ const products = [
 
     {
         id: 8,
-        name: "Valentino",
+        name: "Born in Roma Uomo Intense",
         brand: "mens",
-        price: 100,
+        price: 125,
         category: "man",
         image: "product-images/p8.webp",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla perferendis possimus recusandae sed, repudiandae blanditiis porro repellat architecto tempore in nihil modi fugit tenetur eligendi."
     },
     {
         id: 9,
-        name: "Elie Saab",
+        name: "Le Parfum",
         brand: "womens",
-        price: 150,
+        price: 85,
         category: "women",
         image: "product-images/p9.webp",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla perferendis possimus recusandae sed, repudiandae blanditiis porro repellat architecto tempore in nihil modi fugit tenetur eligendi."
@@ -92,9 +92,9 @@ const products = [
 
     {
         id: 10,
-        name: "Poison",
+        name: "Poison Girl",
         brand: "womens",
-        price: 150,
+        price: 120,
         category: "women",
         image: "product-images/p10.webp",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla perferendis possimus recusandae sed, repudiandae blanditiis porro repellat architecto tempore in nihil modi fugit tenetur eligendi."
@@ -104,7 +104,7 @@ const products = [
         id: 11,
         name: "Queen Rose",
         brand: "womens",
-        price: 150,
+        price: 75,
         category: "women",
         image: "product-images/p11.webp",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla perferendis possimus recusandae sed, repudiandae blanditiis porro repellat architecto tempore in nihil modi fugit tenetur eligendi."
@@ -112,9 +112,9 @@ const products = [
 
     {
         id: 12,
-        name: "Chanel",
+        name: "Coco Mademoiselle",
         brand: "womens",
-        price: 150,
+        price: 145,
         category: "women",
         image: "product-images/p12.webp",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla perferendis possimus recusandae sed, repudiandae blanditiis porro repellat architecto tempore in nihil modi fugit tenetur eligendi."
@@ -122,9 +122,9 @@ const products = [
 
     {
         id: 13,
-        name: "Valentino",
+        name: "Donna Born in Roma Pink PP",
         brand: "womens",
-        price: 150,
+        price: 135,
         category: "women",
         image: "product-images/p13.webp",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla perferendis possimus recusandae sed, repudiandae blanditiis porro repellat architecto tempore in nihil modi fugit tenetur eligendi."
@@ -134,7 +134,7 @@ const products = [
         id: 14,
         name: "Mohra",
         brand: "womens",
-        price: 150,
+        price: 110,
         category: "women",
         image: "product-images/p14.webp",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla perferendis possimus recusandae sed, repudiandae blanditiis porro repellat architecto tempore in nihil modi fugit tenetur eligendi."
@@ -142,9 +142,9 @@ const products = [
 
     {
         id: 15,
-        name: "Irresistible",
+        name: "Irresistible Eau de Parfum",
         brand: "womens",
-        price: 150,
+        price: 110,
         category: "women",
         image: "product-images/p15.webp",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla perferendis possimus recusandae sed, repudiandae blanditiis porro repellat architecto tempore in nihil modi fugit tenetur eligendi."
@@ -152,9 +152,9 @@ const products = [
 
     {
         id: 16,
-        name: "Libre",
+        name: "Libre Le Parfum",
         brand: "womens",
-        price: 150,
+        price: 140,
         category: "women",
         image: "product-images/p16.webp",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla perferendis possimus recusandae sed, repudiandae blanditiis porro repellat architecto tempore in nihil modi fugit tenetur eligendi."
