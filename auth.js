@@ -19,7 +19,7 @@ if (loggedUser && userSection) {
 
         alert("Logged out successfully.");
 
-        window.location.href = "Home.html";
+        window.location.href = "index.html";
 
     });
 
