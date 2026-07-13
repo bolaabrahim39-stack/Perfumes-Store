@@ -1,0 +1,68 @@
+/* ============================================
+   cart-widget.css — cart badge + toast styles
+   Shared across every page.
+   ============================================ */
+
+.cart-icon-wrap {
+    position: relative;
+    display: inline-flex;
+}
+
+.cart-count {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -10px;
+    right: -12px;
+    background-color: #ef3636;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    min-width: 18px;
+    height: 18px;
+    line-height: 1;
+    border-radius: 50%;
+    padding: 0 4px;
+}
+
+#cartToast {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #088178;
+    color: #fff;
+    padding: 14px 24px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    pointer-events: none;
+    z-index: 9999;
+}
+
+#cartToast.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Empty cart message */
+#emptyCartMsg {
+    display: none;
+    text-align: center;
+    padding: 60px 20px;
+    font-size: 17px;
+}
+
+#emptyCartMsg a {
+    color: #088178;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#emptyCartMsg a:hover {
+    text-decoration: underline;
+}
